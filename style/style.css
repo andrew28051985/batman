@@ -1,0 +1,7 @@
+body, h1 {
+  margin: 0;
+}
+.wrapper-header {
+  background: #000;
+  color: aqua;
+}
