@@ -3,14 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../batman/style/style.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
   <title>Бэтмэн - фильм 2021 года</title>
 </head>
 <body>
-  <header>
-    <div class="wrapper-header">
-      <h1>тут будет строка поиска</h1>
-    </div>
-  </header>
+  <!--этот контейнер держит весь контент по середине-->  
+  <div class="conteiner">
+    <header class="header">
+      <div class="logo">
+        КиноПульс
+      </div>
+      <form action="" class="search">
+        <input type="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
+        <button type="submit" class="search-button">
+          <img src="./images/search-icon.svg" alt="кнопка поиска">
+        </button>
+      </form>
+      <div class="user">
+        <img src="./images/bookmark.svg" alt="картинка букмарка" class="bookmark">
+        <img src="./images/avatarka.jpg" alt="аватарка" class="avatar">
+      </div>
+    </header>
+  </div>
 </body>
 </html>
