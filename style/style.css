@@ -6,6 +6,7 @@ body {
   background-image: url(../images/main-bg.png);
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: contain;
 }
 .conteiner {
   border: 0px solid red;
@@ -147,6 +148,7 @@ body {
   color: #000000;
   padding: 43px 50px;
   border-radius: 5px;
+  margin-bottom: 2%;
 }
 .small-info {
   background-color: #e5e5e5;  
@@ -195,8 +197,10 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  margin-right: 38px;
   text-decoration: none;
+}
+.full-info-nav-item:not(:last-child) {
+  margin-right: 38px;
 }
 .bookmark-a {
   margin-right: 0;
@@ -225,6 +229,28 @@ body {
   margin: 32px 0;
 }
 .sabscribe {
-  margin: 0;
+  margin: 0;  
   font-size: 16px;
+  margin-bottom: 14px;
+}
+.subscribe-form {
+  display: flex;
+  margin: 0;
+  margin-bottom: 48px;
+}
+.subscribe-input {
+  background: rgba(196, 196, 196, 0.5);  
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 12px 18px;
+  border: none;
+  color: #AEAEAE;
+  font-size: 14px;
+  line-height: 16px; 
+}
+.subscribe-button {
+  background-color: #FF8F27;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  padding: 12px;
 }
