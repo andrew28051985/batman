@@ -92,6 +92,7 @@ body {
   justify-content: space-between;
   font-size: 16px;
   line-height: 19px;
+  margin-bottom: 112px;
 }
 .movi-info {
   display: flex;
@@ -138,4 +139,17 @@ body {
   height: 30px;
   transform: rotate(90deg);
   margin-left: 15px;
+}
+.content {
+  display: flex;
+  background-color: #e5e5e5;
+  justify-content: space-between; 
+  color: #000000;
+  padding: 43px 50px;
+}
+.small-info {
+  background-color: #e5e5e5;  
+}
+.cover {
+  display: block;
 }
