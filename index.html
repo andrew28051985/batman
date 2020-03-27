@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <title>Бэтмэн - фильм 2021 года</title>
+  <link rel="stylesheet" href="style/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="style/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="style/animate.css">
   <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -64,19 +66,19 @@
         </div>
         <div class="full-block-info">
           <nav class="full-info-nav">
-            <a href="" class="full-info-nav-item active">Описание</a>
-            <a href="" class="full-info-nav-item">Рецензии</a>
-            <a href="" class="full-info-nav-item">Премьеры</a>
-            <a href="" class="full-info-nav-item">Актеры</a>
-            <a href="" class="full-info-nav-item">Награды</a>
-            <a href="" class="full-info-nav-item">Факты</a>
-            <a href="" class="full-info-nav-item">Сайты</a>
+            <a href="#about" class="full-info-nav-item active">Описание</a>
+            <a href="#reviews" class="full-info-nav-item">Рецензии</a>
+            <a href="#premiers" class="full-info-nav-item">Премьеры</a>
+            <a href="#actors" class="full-info-nav-item">Актеры</a>
+            <a href="#rewards" class="full-info-nav-item">Награды</a>
+            <a href="#facts" class="full-info-nav-item">Факты</a>
+            <a href="#site" class="full-info-nav-item">Сайты</a>
             <a href="" class="full-info-nav-item bookmark-a">
               <img src="./images/bookmark-icon.svg" alt="bookmark-added" class="bookmark-added">
             </a>
           </nav>
         <div class="full-block-content">  
-          <div class="full-info-item">
+          <div class="full-info-item visible  animated fadeIn" id="about">
             <p class="text">Предстоящий американский супергеройский фильм,
                основанный на одноимённых комиксах издательства DC Comics. 
                Картина будет выпущена компанией Warner Bros. и 
@@ -112,6 +114,27 @@
                 Уилсона, который, возможно, станет главным злодеем фильма.
             </p>
           </div>
+
+          <div class="full-info-item  animated fadeIn" id="reviews">
+            <p class="text">Скоро здесь появятся рецензии.</p>
+          </div> 
+          <div class="full-info-item  animated fadeIn" id="premiers">
+            <p class="text">Скоро здесь появятся рецензии.</p>
+          </div> 
+          <div class="full-info-item  animated fadeIn" id="actors">
+            <p class="text">Скоро здесь появятся рецензии.</p>
+          </div> 
+          <div class="full-info-item  animated fadeIn" id="rewards">
+            <p class="text">У фильма пока нет наград.</p>
+          </div> 
+          <div class="full-info-item  animated fadeIn" id="facts">
+            <p class="text">Факты отсутствуют, но кто ищет, тот всегда найдёт!</p>
+          </div> 
+          <div class="full-info-item  animated fadeIn" id="site">
+            <p class="text">Cайты отсутствуют, но кто ищет, тот всегда найдёт!</p>
+          </div> 
+
+
           <div class="block-sabscribe">
             <h3 class="text-title sabscribe">Подпишитесь на обновления</h3>
             <form action="#" class="subscribe-form">
@@ -133,5 +156,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
